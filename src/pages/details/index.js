@@ -10,7 +10,7 @@ function Details(){
 
     useEffect(() => {
         fetch(`
-        https://api.themoviedb.org/3/tv/${id}?api_key=022bb20c9441e6165adc24561d8429c1&language=en-US&page=1`)
+        https://api.themoviedb.org/3/movie/${id}?api_key=022bb20c9441e6165adc24561d8429c1&language=en-US&page=1`)
 
         .then(response => response.json())
         .then(data => {
